@@ -61,7 +61,7 @@ function App() {
               return (
                 <div key={item.id} className="todo flex justify-between px-10 my-5 items-center">
                   <div className="text text-white w-3/4 break-words">{item.text}</div>
-                  <div className="buttons flex justify-center items-center gap-5 flex-wrap">
+                  <div className="buttons flex justify-center items-center gap-5">
                     <button onClick={()=>{handleEdit(item.id)}} className='text-white bg-gray-500 w-12 h-10 text-lg rounded-lg py-1 hover:bg-slate-700 transition-all flex justify-center items-center'><img src={edit} alt="" className='w-6'/></button>
                     <button onClick={()=>{handleDelete(item.id)}} className='text-white bg-gray-500 w-12 h-10 text-lg rounded-lg py-1 hover:bg-slate-700 transition-all flex justify-center items-center'><img src={del} alt="" className='w-8'/></button>
                   </div>
