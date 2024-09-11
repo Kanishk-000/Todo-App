@@ -49,7 +49,7 @@ function App() {
 
   return (
     <>
-      <div className="container mx-auto p-1">
+      <div className="container mx-auto p-1 flex flex-col justify-center items-center">
         <h1 className='text-center text-5xl text-white'>Todo App</h1>
         <div className="app flex flex-col justify-center min-h-screen py-5 w-[85vw]">
           <div className="add flex justify-center px-11 gap-5">
